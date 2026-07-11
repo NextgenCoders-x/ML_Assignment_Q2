@@ -1,0 +1,501 @@
+StudentID,Name,Gender,Department,Age,Attendance,StudyHours,AssignmentMarks,ExamMarks,ProjectMarks,TotalMarks,CGPA,Result,PlacementStatus
+S080,Rohan Chopra,Male,Civil,21.0,28.9,0.5,25.8,66.6,39.2,131.6,6.04,Pass,Placed
+S317,Ankit Patel,Male,Electrical,20.0,74.2,1.7,47.9,62.0,32.7,142.6,7.6,Pass,Placed
+S486,Pooja Chopra,Female,Information Technology,19.0,30.9,2.5,33.9,57.8,35.3,118.3,5.19,Pass,Placed
+S397,Pallavi Sinha,Female,Electrical,18.0,71.6,2.5,29.2,44.5,38.3,112.0,5.33,Pass,Not Placed
+S168,Ankit Jain,Male,Electrical,20.0,72.9,3.5,42.1,61.7,42.7,146.5,7.32,Pass,Not Placed
+S494,Amit Mishra,Male,Computer Science,19.0,85.0,2.2,23.5,74.5,32.0,130.0,6.12,Pass,Not Placed
+S064,Vivaan Pandey,Male,Mechanical,20.0,81.5,0.9,42.9,70.5,43.8,157.2,7.74,Pass,Not Placed
+S186,Tanya Patel,Female,Information Technology,21.0,79.3,11.6,33.9,38.9,32.8,111.4,5.03,Pass,Not Placed
+S085,Suresh Chopra,Male,Computer Science,19.0,38.4,2.8,39.3,51.0,37.6,131.1,6.52,Pass,Not Placed
+S125,Nikhil Iyer,Male,Computer Science,22.0,79.3,2.5,25.2,72.7,31.4,129.3,6.365,Pass,Not Placed
+S074,Nisha Jain,Female,Electronics,18.0,68.3,1.5,38.5,80.2,40.9,159.6,8.16,Pass,Not Placed
+S285,Priya Nair,Female,Mechanical,19.0,56.3,2.5,44.6,59.8,37.6,138.5,6.47,Pass,Not Placed
+S132,Gaurav Nair,Male,Computer Science,19.0,83.7,5.3,39.4,38.6,42.1,120.1,6.365,Pass,Not Placed
+S069,Ishaan Bhat,Male,Civil,20.0,62.8,2.5,28.7,56.2,44.2,129.1,6.53,Pass,Not Placed
+S071,Archana Singh,Female,Mechanical,22.0,88.4,6.6,39.3,48.0,43.5,130.8,6.96,Pass,Not Placed
+S473,Rahul Rao,Male,Civil,23.0,98.4,1.1,29.9,66.4,26.3,122.6,6.56,Pass,Not Placed
+S248,Aanya Sinha,Female,Computer Science,22.0,79.0,2.5,33.9,47.0,36.2,109.5,5.14,Pass,Not Placed
+S031,Tanvi Chauhan,Female,Electronics,23.0,79.3,2.5,22.6,44.6,44.1,111.3,5.07,Pass,Placed
+S010,Meera Agarwal,Female,Electronics,18.0,79.3,0.6,40.0,51.9,18.5,110.4,5.78,Pass,Not Placed
+S056,Tanya Verma,Female,Electrical,20.0,85.6,2.5,33.9,65.0,40.7,139.6,6.04,Pass,Placed
+S322,Megha Kapoor,Female,Electronics,20.0,77.9,0.9,40.3,49.5,34.7,124.5,6.32,Pass,Not Placed
+S407,Vihaan Bansal,Male,Computer Science,23.0,67.9,1.3,40.2,56.2,27.7,124.1,6.5,Pass,Not Placed
+S476,Priya Tiwari,Female,Computer Science,21.0,75.0,2.5,30.2,49.0,35.0,114.2,5.33,Pass,Placed
+S401,Nikhil Reddy,Male,Electronics,20.0,79.6,1.4,17.2,61.8,30.4,109.4,5.19,Pass,Not Placed
+S173,Sai Bhat,Male,Computer Science,21.0,93.6,4.9,30.4,85.0,40.7,156.1,7.19,Pass,Not Placed
+S377,Swati Tiwari,Female,Mechanical,20.0,79.3,10.2,42.7,42.3,41.2,126.2,6.44,Pass,Not Placed
+S483,Mohit Bansal,Male,Electrical,19.0,79.3,3.2,39.7,43.1,36.0,118.8,6.2,Pass,Not Placed
+S269,Rohan Menon,Male,Civil,21.0,88.6,7.2,36.3,42.4,30.7,109.4,5.46,Pass,Not Placed
+S141,Sneha Das,Female,Computer Science,21.0,79.1,11.1,35.1,61.3,37.7,134.1,6.365,Pass,Not Placed
+S230,Ananya Agarwal,Female,Electrical,25.0,80.9,0.5,35.9,59.1,30.1,125.1,6.29,Pass,Not Placed
+S450,Rohan Malhotra,Male,Information Technology,19.0,88.9,2.5,34.0,52.4,29.0,115.4,6.1,Pass,Not Placed
+S181,Vihaan Bhat,Male,Civil,21.0,84.5,2.0,19.9,52.8,29.0,101.7,5.0,Pass,Not Placed
+S073,Vikram Nair,Male,Computer Science,21.0,66.7,4.6,44.5,61.7,40.1,146.3,7.1,Pass,Not Placed
+S276,Sahil Mishra,Male,Civil,19.0,87.4,8.4,27.1,71.4,10.6,109.1,4.87,Fail,Not Placed
+S232,Rahul Chauhan,Male,Electronics,21.0,79.3,2.5,43.0,35.8,37.6,105.2,5.21,Pass,Not Placed
+S209,Vivaan Rao,Male,Electronics,21.0,77.0,1.6,22.7,44.3,44.8,111.8,5.62,Pass,Not Placed
+S321,Suresh Bansal,Male,Electronics,18.0,88.4,1.7,32.8,69.4,36.9,139.1,6.86,Pass,Placed
+S011,Vivaan Nair,Male,Mechanical,21.0,77.6,17.7,50.0,30.5,31.5,112.0,5.28,Pass,Not Placed
+S154,Arjun Agarwal,Male,Computer Science,21.0,92.6,2.5,21.3,45.7,43.0,110.0,6.34,Pass,Placed
+S451,Bhavna Sinha,Female,Mechanical,21.0,79.3,10.4,32.0,68.1,27.3,127.4,6.55,Pass,Placed
+S235,Ayaan Bhat,Male,Computer Science,22.0,75.2,1.5,31.4,67.3,39.8,138.5,6.365,Pass,Placed
+S424,Kartik Das,Male,Mechanical,18.0,86.5,6.2,36.1,56.3,44.0,136.4,6.23,Pass,Not Placed
+S003,Tanvi Pandey,Female,Information Technology,19.0,79.3,1.9,48.9,57.2,25.3,131.4,6.89,Pass,Placed
+S404,Isha Reddy,Female,Information Technology,29.0,69.8,11.0,26.8,56.1,37.6,104.6,4.76,Fail,Not Placed
+S302,Manish Reddy,Male,Computer Science,20.0,61.0,2.5,39.1,42.0,48.5,129.6,5.9,Pass,Not Placed
+S416,Arjun Agarwal,Male,Civil,19.0,90.3,8.9,40.2,38.4,30.4,109.0,5.71,Pass,Not Placed
+S325,Shruti Reddy,Female,Information Technology,21.0,84.4,2.5,37.0,48.3,45.0,130.3,6.59,Pass,Not Placed
+S368,Tanya Saxena,Female,Information Technology,24.0,94.1,2.9,33.9,61.3,41.1,141.9,7.53,Pass,Placed
+S251,Suresh Verma,Male,Electronics,20.0,55.9,5.9,22.3,58.6,43.6,124.5,6.28,Pass,Not Placed
+S118,Karan Mehta,Male,Mechanical,21.0,86.6,0.5,21.5,33.5,41.5,96.5,5.75,Pass,Placed
+S077,Aadhya Tiwari,Female,Information Technology,19.0,64.5,2.5,33.7,55.6,36.7,126.0,6.45,Pass,Not Placed
+S492,Tanvi Joshi,Female,Computer Science,20.0,68.0,9.9,14.8,54.7,47.3,116.8,5.57,Pass,Not Placed
+S212,Ritika Jain,Female,Computer Science,20.0,80.7,2.5,35.2,73.9,34.6,143.7,6.74,Pass,Not Placed
+S105,Sonal Shah,Female,Computer Science,19.0,78.0,4.2,31.5,69.7,29.1,130.3,6.76,Pass,Placed
+S034,Pooja Bhat,Female,Computer Science,21.0,38.3,4.1,22.5,39.8,29.6,91.9,5.45,Pass,Not Placed
+S079,Akash Iyer,Male,Electronics,20.0,90.7,0.5,29.1,54.2,44.7,128.0,6.46,Pass,Placed
+S083,Karan Chauhan,Male,Electrical,21.0,53.9,3.5,50.0,74.5,30.4,154.9,7.26,Pass,Not Placed
+S470,Archana Malhotra,Female,Electronics,22.0,80.1,2.5,32.2,77.9,37.6,147.7,7.01,Pass,Placed
+S292,Karan Sharma,Male,Electrical,22.0,60.4,5.4,25.1,60.0,16.5,101.6,4.77,Fail,Not Placed
+S001,Suresh Malhotra,Male,Electrical,19.0,97.6,1.2,46.9,63.8,41.5,152.2,7.29,Pass,Placed
+S210,Aditya Gupta,Male,Computer Science,21.0,74.5,2.5,39.7,67.6,43.5,150.8,7.7,Pass,Placed
+S012,Pallavi Menon,Female,Electronics,27.0,79.3,2.5,40.4,50.4,38.7,129.5,6.91,Pass,Not Placed
+S229,Swati Shah,Female,Computer Science,20.0,81.6,1.0,30.7,77.3,43.3,151.3,7.21,Pass,Not Placed
+S448,Shruti Bhat,Female,Civil,32.0,85.5,2.5,33.4,68.0,35.0,136.4,6.58,Pass,Placed
+S023,Sahil Sharma,Male,Information Technology,20.0,79.2,2.5,28.1,48.7,18.1,94.9,4.31,Fail,Not Placed
+S493,Krishna Bhat,Male,Electronics,21.0,70.2,0.7,48.4,55.5,22.3,126.2,6.18,Pass,Not Placed
+S078,Vivaan Das,Male,Electronics,21.0,60.8,2.2,32.7,67.6,47.2,147.5,7.38,Pass,Not Placed
+S094,Aanya Kapoor,Female,Computer Science,20.0,73.8,2.4,43.8,47.0,26.3,117.1,5.6,Pass,Not Placed
+S383,Meera Kumar,Female,Computer Science,19.0,80.2,0.5,43.8,63.4,38.8,146.0,8.17,Pass,Not Placed
+S266,Sara Bansal,Female,Mechanical,21.0,79.4,0.5,47.6,63.0,26.7,137.3,6.77,Pass,Placed
+S133,Reyansh Agarwal,Male,Mechanical,21.0,90.3,2.5,38.0,40.3,34.0,112.3,5.73,Pass,Not Placed
+S019,Rohan Tiwari,Male,Electronics,20.0,63.6,2.5,38.1,56.9,40.4,135.4,7.24,Pass,Not Placed
+S339,Dev Kapoor,Male,Electrical,18.0,84.6,2.5,30.0,58.1,29.2,117.3,6.07,Pass,Placed
+S155,Ananya Tiwari,Female,Mechanical,19.0,79.6,2.5,28.7,70.6,41.5,140.8,7.77,Pass,Not Placed
+S411,Rohan Patel,Male,Computer Science,24.0,80.6,2.5,23.3,62.3,29.9,115.5,5.52,Pass,Not Placed
+S091,Raj Pillai,Male,Electronics,24.0,79.3,7.7,32.0,67.1,26.5,125.6,6.23,Pass,Not Placed
+S040,Akash Sharma,Male,Information Technology,20.0,86.6,0.5,47.2,37.3,17.1,101.6,4.96,Fail,Not Placed
+S495,Raj Sinha,Male,Computer Science,24.0,79.8,0.5,18.3,52.3,29.5,100.1,4.46,Fail,Not Placed
+S047,Mohit Kapoor,Male,Computer Science,21.0,83.1,2.5,38.9,43.2,31.5,113.6,5.63,Pass,Not Placed
+S395,Pranav Malhotra,Male,Information Technology,21.0,73.0,2.5,32.8,80.0,43.4,156.2,7.64,Pass,Not Placed
+S195,Vivaan Das,Male,Civil,21.0,89.1,2.8,27.7,52.8,23.8,104.3,5.69,Pass,Not Placed
+S357,Aarav Agarwal,Male,Electronics,23.0,77.8,2.5,20.7,70.1,28.1,118.9,5.79,Pass,Placed
+S279,Meera Mishra,Female,Mechanical,19.0,92.2,0.5,28.8,76.6,26.5,131.9,6.63,Pass,Not Placed
+S281,Kavya Rao,Female,Electronics,21.0,67.2,2.0,31.0,60.1,42.5,133.6,6.44,Pass,Placed
+S182,Ankit Sharma,Male,Computer Science,19.0,83.3,3.4,46.0,60.4,42.9,149.3,7.36,Pass,Not Placed
+S273,Meera Bansal,Female,Electrical,19.0,60.4,2.5,25.4,32.1,33.8,91.3,4.25,Fail,Not Placed
+S440,Reyansh Mishra,Male,Mechanical,20.0,80.2,2.5,34.6,61.1,32.2,127.9,5.2,Pass,Not Placed
+S177,Komal Bhat,Female,Information Technology,20.0,81.7,2.5,24.4,98.1,33.1,155.6,7.26,Pass,Placed
+S070,Nisha Kumar,Female,Mechanical,20.0,90.2,2.5,40.9,60.1,45.6,146.6,7.44,Pass,Placed
+S458,Harsh Pillai,Male,Electronics,21.0,78.4,2.3,27.9,31.1,38.0,97.0,4.82,Fail,Not Placed
+S298,Suresh Chauhan,Male,Mechanical,22.0,85.4,0.7,27.7,59.7,49.4,136.8,6.53,Pass,Not Placed
+S417,Sai Bansal,Male,Information Technology,22.0,52.6,0.5,33.3,30.6,30.3,94.2,4.95,Fail,Not Placed
+S102,Tanya Bansal,Female,Computer Science,20.0,74.0,4.4,22.9,64.9,7.2,95.0,4.61,Fail,Not Placed
+S488,Karan Bansal,Male,Computer Science,18.0,70.3,1.2,36.1,49.9,42.6,128.6,6.38,Pass,Not Placed
+S205,Megha Rao,Female,Mechanical,20.0,83.8,16.7,44.5,57.1,45.7,147.3,7.65,Pass,Placed
+S300,Rahul Tiwari,Male,Computer Science,19.0,73.9,2.5,33.9,59.0,30.2,137.6,6.25,Pass,Placed
+S326,Nisha Pandey,Female,Electrical,21.0,79.3,2.5,29.6,53.1,46.6,129.3,6.29,Pass,Placed
+S500,Jyoti Nair,Female,Electronics,20.0,78.8,7.9,48.2,84.2,42.2,174.6,6.365,Pass,Not Placed
+S193,Aanya Chauhan,Female,Computer Science,22.0,78.3,0.5,19.0,44.8,39.2,103.0,4.56,Fail,Not Placed
+S315,Ritika Saxena,Female,Information Technology,22.0,70.8,2.5,33.9,57.7,36.9,111.4,5.31,Pass,Placed
+S183,Shruti Malhotra,Female,Mechanical,20.0,58.4,6.6,33.0,76.3,29.8,139.1,7.33,Pass,Placed
+S398,Nikhil Chauhan,Male,Computer Science,19.0,86.7,2.4,36.1,67.4,33.5,137.0,7.24,Pass,Not Placed
+S348,Varun Chauhan,Male,Electronics,19.0,88.5,3.8,39.4,46.0,40.7,126.1,6.47,Pass,Placed
+S138,Riya Pandey,Female,Mechanical,21.0,79.3,2.5,33.9,57.5,22.2,120.9,5.54,Pass,Placed
+S487,Reyansh Malhotra,Male,Mechanical,20.0,72.7,2.4,32.6,71.0,46.6,150.2,6.85,Pass,Not Placed
+S452,Riya Iyer,Female,Information Technology,19.0,80.1,7.4,46.9,54.4,30.1,131.4,7.11,Pass,Placed
+S412,Anjali Tiwari,Female,Computer Science,20.0,66.1,5.6,41.8,44.1,36.4,122.3,6.32,Pass,Not Placed
+S439,Nisha Sinha,Female,Civil,23.0,67.1,4.1,35.9,61.2,40.9,138.0,6.365,Pass,Not Placed
+S352,Diya Jain,Female,Electrical,23.0,93.2,0.7,26.2,53.9,21.6,101.7,5.04,Pass,Not Placed
+S087,Priya Singh,Female,Mechanical,22.0,53.1,1.2,26.6,62.5,28.4,117.5,6.13,Pass,Placed
+S076,Aanya Verma,Female,Electronics,23.0,79.3,9.3,31.0,68.1,47.2,146.3,7.27,Pass,Not Placed
+S462,Myra Kapoor,Female,Electronics,22.0,79.3,3.0,28.3,40.4,46.8,115.5,5.83,Pass,Not Placed
+S016,Aarav Yadav,Male,Information Technology,24.0,81.4,16.0,15.6,61.8,47.4,124.8,6.6,Pass,Not Placed
+S275,Kartik Bansal,Male,Information Technology,20.0,65.7,2.9,24.0,50.7,30.9,105.6,6.365,Pass,Not Placed
+S463,Aanya Rao,Female,Information Technology,22.0,88.0,0.6,27.5,69.0,35.3,131.8,6.5,Pass,Not Placed
+S392,Kartik Gupta,Male,Computer Science,24.0,78.4,2.8,37.3,61.5,37.6,125.0,6.4,Pass,Not Placed
+S020,Deepak Agarwal,Male,Civil,22.0,79.7,2.5,30.9,81.9,38.2,151.0,8.15,Pass,Placed
+S334,Dev Menon,Male,Electronics,19.0,70.3,3.2,34.4,55.3,33.7,123.4,6.42,Pass,Placed
+S337,Archana Menon,Female,Mechanical,21.0,78.0,2.7,28.6,55.1,34.4,118.1,6.11,Pass,Placed
+S057,Rohan Bhat,Male,Civil,19.0,92.6,4.0,18.1,77.7,28.8,124.6,6.365,Pass,Not Placed
+S445,Aanya Saxena,Female,Mechanical,22.0,79.3,2.5,36.8,53.3,42.2,132.3,6.365,Pass,Not Placed
+S499,Myra Kapoor,Female,Civil,20.0,93.2,2.6,38.4,63.1,40.8,142.3,6.44,Pass,Placed
+S238,Aditya Joshi,Male,Information Technology,22.0,63.5,3.8,40.2,36.1,44.9,121.2,6.29,Pass,Placed
+S336,Vikram Das,Male,Computer Science,18.0,76.0,11.1,32.4,44.9,26.2,103.5,5.41,Pass,Not Placed
+S384,Shruti Iyer,Female,Civil,18.0,73.8,2.5,35.4,47.1,38.7,121.2,6.5,Pass,Placed
+S484,Sneha Das,Female,Electronics,22.0,91.5,2.5,35.8,44.8,11.1,91.7,4.5,Fail,Not Placed
+S430,Deepak Mehta,Male,Civil,26.0,79.2,5.6,39.8,49.1,30.2,119.1,5.4,Pass,Not Placed
+S149,Arjun Patel,Male,Information Technology,22.0,92.8,1.0,41.1,60.0,44.0,145.1,7.52,Pass,Placed
+S026,Tanvi Chopra,Female,Computer Science,22.0,79.3,3.4,28.4,29.6,37.6,86.6,3.63,Fail,Not Placed
+S256,Meera Singh,Female,Computer Science,19.0,70.0,2.3,21.0,32.6,40.4,94.0,4.72,Fail,Not Placed
+S043,Ayaan Joshi,Male,Electronics,20.0,79.7,1.2,21.6,66.4,38.0,126.0,6.7,Pass,Not Placed
+S393,Ankit Bansal,Male,Electronics,24.0,34.6,0.5,31.4,47.9,34.6,113.9,5.52,Pass,Not Placed
+S196,Ayaan Verma,Male,Mechanical,20.0,79.3,0.9,33.9,50.9,18.9,109.2,5.61,Pass,Not Placed
+S282,Vihaan Chopra,Male,Electrical,23.0,83.7,3.2,22.5,43.4,39.4,105.3,4.41,Fail,Not Placed
+S127,Riya Kapoor,Female,Computer Science,21.0,79.6,8.8,29.7,74.4,39.0,143.1,7.22,Pass,Not Placed
+S496,Karan Pillai,Male,Electrical,23.0,82.3,3.4,35.0,62.3,23.3,120.6,6.08,Pass,Not Placed
+S032,Arjun Tiwari,Male,Information Technology,20.0,69.1,0.8,38.5,100.0,32.3,170.8,8.11,Pass,Placed
+S114,Shruti Shah,Female,Electronics,23.0,85.4,0.9,34.2,43.2,39.1,116.5,6.49,Pass,Not Placed
+S353,Ananya Chauhan,Female,Information Technology,21.0,91.5,0.8,35.2,74.0,44.4,153.6,7.41,Pass,Not Placed
+S211,Aarav Mishra,Male,Computer Science,30.0,75.3,2.2,50.0,37.9,27.2,115.1,6.2,Pass,Not Placed
+S308,Rohan Patel,Male,Information Technology,26.0,81.7,2.5,33.9,47.2,23.4,117.9,6.01,Pass,Not Placed
+S058,Reyansh Patel,Male,Civil,21.0,79.3,3.0,37.3,31.9,34.6,103.8,5.33,Pass,Not Placed
+S363,Arjun Gupta,Male,Information Technology,21.0,88.6,2.5,28.9,49.3,40.6,118.8,6.07,Pass,Not Placed
+S025,Aditya Sharma,Male,Computer Science,19.0,99.1,2.2,39.7,49.8,37.6,131.8,6.58,Pass,Placed
+S018,Rahul Malhotra,Male,Information Technology,22.0,79.0,15.6,13.4,50.0,35.5,98.9,5.32,Pass,Not Placed
+S250,Bhavna Singh,Female,Computer Science,21.0,92.4,0.5,41.3,60.5,36.8,138.6,6.65,Pass,Not Placed
+S067,Rahul Jain,Male,Information Technology,24.0,91.5,0.9,33.9,80.4,37.6,155.9,8.29,Pass,Placed
+S249,Swati Sharma,Female,Electronics,25.0,72.2,2.5,47.4,57.6,27.8,132.8,6.31,Pass,Not Placed
+S156,Suresh Tiwari,Male,Mechanical,23.0,81.7,2.5,37.3,60.6,45.4,143.3,6.365,Pass,Not Placed
+S095,Megha Nair,Female,Information Technology,23.0,91.6,0.5,37.6,27.7,19.1,84.4,3.87,Fail,Not Placed
+S246,Aadhya Agarwal,Female,Electrical,22.0,92.5,2.5,33.9,46.0,33.4,112.7,5.69,Pass,Not Placed
+S433,Ananya Bhat,Female,Electronics,21.0,77.6,1.9,31.2,74.1,43.3,148.6,7.72,Pass,Placed
+S024,Vivaan Reddy,Male,Civil,19.0,86.0,2.5,33.9,68.7,39.6,145.9,6.9,Pass,Not Placed
+S318,Manish Saxena,Male,Electrical,22.0,83.9,0.5,32.8,40.5,37.6,107.9,5.61,Pass,Not Placed
+S480,Ayaan Agarwal,Male,Information Technology,20.0,100.0,2.5,29.5,51.0,37.2,117.7,4.92,Fail,Not Placed
+S324,Reyansh Malhotra,Male,Computer Science,22.0,79.3,0.5,33.9,57.3,34.3,130.6,6.32,Pass,Not Placed
+S006,Sahil Mehta,Male,Mechanical,19.0,84.7,6.1,34.6,51.3,42.9,128.8,6.53,Pass,Not Placed
+S117,Komal Jain,Female,Electronics,20.0,68.0,3.2,33.9,63.1,29.0,126.0,6.33,Pass,Placed
+S046,Ritika Gupta,Female,Computer Science,20.0,65.0,1.0,37.0,53.4,24.0,114.4,5.03,Pass,Not Placed
+S017,Aarav Kapoor,Male,Mechanical,22.0,65.1,0.6,29.9,69.9,23.9,123.7,5.56,Pass,Not Placed
+S471,Ishaan Agarwal,Male,Civil,22.0,86.3,5.3,42.2,55.7,37.6,133.3,6.7,Pass,Placed
+S362,Sonal Shah,Female,Mechanical,19.0,73.6,2.5,34.5,61.6,33.2,129.3,6.365,Pass,Not Placed
+S004,Riya Jain,Female,Electronics,21.0,72.4,1.0,30.5,30.9,41.4,102.8,5.29,Pass,Not Placed
+S361,Ayaan Yadav,Male,Computer Science,22.0,78.1,2.5,33.8,58.4,30.5,122.7,7.15,Pass,Placed
+S421,Jyoti Agarwal,Female,Computer Science,21.0,83.9,16.0,33.9,55.7,20.7,105.5,4.4,Fail,Not Placed
+S061,Vivaan Kapoor,Male,Information Technology,21.0,99.1,5.1,33.9,63.4,35.8,126.2,5.99,Pass,Not Placed
+S111,Vihaan Sharma,Male,Civil,22.0,77.7,2.5,37.5,56.1,43.0,136.6,7.27,Pass,Not Placed
+S323,Tanvi Malhotra,Female,Electronics,19.0,76.1,2.0,37.3,44.3,20.4,102.0,6.365,Pass,Not Placed
+S267,Neha Sinha,Female,Computer Science,22.0,89.6,2.5,24.2,54.9,40.8,119.9,5.51,Pass,Not Placed
+S030,Sai Gupta,Male,Electronics,18.0,95.7,2.9,35.7,60.9,33.0,129.6,6.09,Pass,Not Placed
+S481,Anjali Agarwal,Female,Electronics,21.0,100.0,1.1,28.7,53.1,27.7,109.5,5.66,Pass,Placed
+S174,Akash Agarwal,Male,Mechanical,21.0,35.2,2.5,29.2,70.5,22.6,122.3,5.91,Pass,Not Placed
+S027,Karan Patel,Male,Computer Science,20.0,82.4,1.9,32.1,57.9,40.8,130.8,6.23,Pass,Placed
+S008,Aadhya Kapoor,Female,Information Technology,22.0,82.2,6.1,33.9,87.1,30.9,157.8,6.365,Pass,Not Placed
+S461,Reyansh Gupta,Male,Electronics,19.0,95.3,3.2,27.9,60.7,36.1,124.7,6.33,Pass,Not Placed
+S109,Amit Pillai,Male,Mechanical,20.0,94.3,4.0,39.8,57.6,46.8,148.9,7.18,Pass,Not Placed
+S038,Dev Das,Male,Computer Science,26.0,61.4,0.5,35.4,63.7,19.5,118.6,6.34,Pass,Placed
+S158,Swati Chopra,Female,Mechanical,30.0,68.1,2.5,29.3,73.4,39.6,142.3,7.17,Pass,Placed
+S475,Pranav Bhat,Male,Computer Science,20.0,72.4,2.9,44.9,77.0,38.1,160.0,8.47,Pass,Placed
+S119,Pallavi Verma,Female,Computer Science,22.0,87.6,4.6,33.9,51.9,37.2,131.3,6.48,Pass,Placed
+S115,Meera Saxena,Female,Mechanical,21.0,76.4,3.8,39.9,59.0,24.9,123.8,6.18,Pass,Placed
+S176,Rohan Mishra,Male,Mechanical,22.0,83.4,4.6,43.5,94.0,41.6,179.1,8.95,Pass,Placed
+S415,Diya Malhotra,Female,Computer Science,19.0,77.6,2.3,38.2,67.3,19.9,125.4,6.365,Pass,Not Placed
+S145,Rahul Mishra,Male,Information Technology,18.0,67.4,2.5,45.0,48.5,40.2,133.7,6.365,Pass,Not Placed
+S375,Reyansh Nair,Male,Information Technology,20.0,65.3,3.6,32.5,100.0,26.8,159.3,6.365,Pass,Placed
+S441,Aditya Yadav,Male,Computer Science,23.0,78.2,2.5,35.3,70.0,19.5,124.8,6.6,Pass,Not Placed
+S204,Aanya Menon,Female,Computer Science,25.0,81.5,3.3,23.7,35.3,32.3,91.3,4.77,Fail,Not Placed
+S223,Ishaan Agarwal,Male,Computer Science,19.0,72.1,3.9,35.4,60.4,39.0,134.8,6.68,Pass,Not Placed
+S226,Ayaan Mehta,Male,Computer Science,22.0,79.5,2.5,34.7,54.8,33.3,122.8,5.94,Pass,Not Placed
+S453,Vivaan Reddy,Male,Information Technology,21.0,75.4,8.3,26.8,50.6,28.3,105.7,6.28,Pass,Not Placed
+S142,Raj Shah,Male,Information Technology,22.0,74.8,2.9,35.0,57.3,29.6,121.9,6.25,Pass,Placed
+S371,Ankit Kumar,Male,Information Technology,22.0,90.8,0.5,43.5,74.3,37.8,155.6,7.91,Pass,Placed
+S068,Bhavna Chauhan,Female,Computer Science,23.0,80.6,0.5,19.6,55.5,32.0,107.1,5.26,Pass,Not Placed
+S219,Divya Sinha,Female,Civil,23.0,76.0,0.5,29.7,73.8,40.4,143.9,7.2,Pass,Not Placed
+S169,Rohan Singh,Male,Information Technology,23.0,71.4,2.5,26.4,35.5,46.2,108.1,5.65,Pass,Not Placed
+S237,Sai Patel,Male,Electrical,19.0,86.1,0.6,33.9,54.4,35.9,123.6,6.43,Pass,Not Placed
+S382,Diya Sharma,Female,Electronics,21.0,71.5,0.5,38.2,45.8,37.6,128.6,6.44,Pass,Not Placed
+S221,Bhavna Singh,Female,Computer Science,20.0,71.3,4.2,27.1,56.6,42.4,126.1,5.58,Pass,Not Placed
+S194,Pooja Rao,Female,Electrical,20.0,85.5,3.1,45.8,87.2,38.1,171.1,8.8,Pass,Not Placed
+S272,Priya Chauhan,Female,Electronics,21.0,91.7,5.7,49.5,52.2,41.4,143.1,7.03,Pass,Not Placed
+S110,Vikram Bansal,Male,Electronics,20.0,73.3,10.2,40.3,66.6,24.6,131.5,7.24,Pass,Not Placed
+S358,Swati Gupta,Female,Electronics,19.0,85.0,2.3,34.5,56.8,38.8,130.1,6.32,Pass,Not Placed
+S146,Ayaan Malhotra,Male,Computer Science,23.0,54.8,1.7,42.3,47.5,40.5,130.3,6.61,Pass,Placed
+S093,Divya Tiwari,Female,Mechanical,20.0,88.7,2.9,39.7,58.6,30.8,129.1,6.37,Pass,Placed
+S153,Sahil Patel,Male,Information Technology,21.0,82.1,2.5,17.5,48.4,34.3,100.2,4.27,Fail,Not Placed
+S228,Sai Sharma,Male,Computer Science,22.0,77.6,9.6,36.1,67.3,40.9,144.3,7.52,Pass,Not Placed
+S239,Divya Mishra,Female,Civil,25.0,79.3,2.5,39.0,30.8,39.4,109.2,5.66,Pass,Not Placed
+S084,Amit Iyer,Male,Electrical,20.0,87.2,1.9,24.9,55.5,37.6,118.0,6.09,Pass,Placed
+S254,Aarav Yadav,Male,Mechanical,23.0,89.3,2.5,39.3,41.7,43.9,124.9,6.23,Pass,Not Placed
+S166,Sara Saxena,Female,Mechanical,21.0,79.3,1.3,32.0,65.3,39.8,137.1,6.76,Pass,Placed
+S164,Aditya Bhat,Male,Computer Science,21.0,68.3,3.9,40.0,66.3,33.5,139.8,6.6,Pass,Not Placed
+S200,Neha Shah,Female,Information Technology,27.0,87.4,2.5,46.7,65.6,43.9,156.2,8.04,Pass,Placed
+S341,Dev Shah,Male,Information Technology,18.0,63.2,2.5,28.9,51.1,39.7,119.7,5.43,Pass,Placed
+S075,Shruti Saxena,Female,Electronics,20.0,59.2,2.3,17.8,55.2,45.1,118.1,6.06,Pass,Not Placed
+S313,Mohit Rao,Male,Computer Science,22.0,79.0,1.2,43.2,77.0,18.0,138.2,7.34,Pass,Not Placed
+S245,Vihaan Pillai,Male,Electrical,22.0,81.1,1.9,24.9,68.4,37.6,138.6,6.71,Pass,Not Placed
+S478,Aanya Yadav,Female,Computer Science,21.0,79.3,2.5,35.8,60.2,34.9,130.9,6.39,Pass,Placed
+S120,Sahil Bansal,Male,Computer Science,22.0,75.9,1.4,35.9,65.6,25.5,127.0,6.34,Pass,Not Placed
+S457,Vikram Sharma,Male,Electrical,19.0,79.3,3.9,32.6,49.2,39.8,121.6,5.89,Pass,Not Placed
+S413,Pooja Singh,Female,Electrical,22.0,75.0,4.0,44.4,40.6,37.6,120.0,5.54,Pass,Not Placed
+S263,Sahil Verma,Male,Civil,18.0,63.3,0.6,26.8,54.3,27.3,108.4,5.91,Pass,Not Placed
+S359,Pallavi Chauhan,Female,Information Technology,22.0,77.4,1.7,34.7,59.1,41.1,134.9,7.07,Pass,Placed
+S406,Neha Mehta,Female,Computer Science,20.0,94.4,4.6,27.5,44.1,16.1,87.7,4.69,Fail,Not Placed
+S306,Myra Pandey,Female,Electronics,23.0,82.5,2.3,36.3,81.7,49.8,167.8,8.66,Pass,Placed
+S423,Ayaan Verma,Male,Mechanical,22.0,65.0,2.5,38.9,60.2,44.8,143.9,7.84,Pass,Placed
+S332,Swati Bhat,Female,Information Technology,20.0,80.4,2.5,43.6,31.4,30.5,105.5,5.23,Pass,Not Placed
+S389,Aanya Patel,Female,Computer Science,20.0,85.4,10.4,30.6,59.7,45.9,136.2,6.58,Pass,Not Placed
+S278,Sonal Sharma,Female,Electrical,20.0,98.8,1.2,28.1,72.1,33.9,134.1,5.23,Pass,Not Placed
+S037,Nikhil Sharma,Male,Electrical,19.0,92.6,2.5,42.5,70.7,34.1,147.3,7.59,Pass,Not Placed
+S197,Shruti Sharma,Female,Civil,21.0,91.3,3.6,33.9,52.8,31.0,118.4,6.01,Pass,Not Placed
+S140,Pooja Gupta,Female,Computer Science,21.0,92.5,6.7,44.5,56.5,47.9,148.9,6.365,Pass,Not Placed
+S370,Amit Singh,Male,Civil,21.0,74.4,0.5,30.8,28.3,35.8,94.9,4.47,Fail,Not Placed
+S474,Bhavna Chopra,Female,Mechanical,19.0,90.5,4.2,26.9,53.8,35.4,116.1,5.61,Pass,Not Placed
+S381,Gaurav Kapoor,Male,Electronics,23.0,79.3,0.7,23.9,66.6,38.9,129.4,6.52,Pass,Placed
+S290,Priya Reddy,Female,Electrical,21.0,91.0,3.5,39.2,46.0,36.6,121.8,6.27,Pass,Not Placed
+S060,Sai Kapoor,Male,Computer Science,19.0,79.3,1.1,33.8,69.3,40.8,143.9,7.11,Pass,Not Placed
+S112,Ayaan Malhotra,Male,Electronics,19.0,79.3,2.5,20.2,43.5,32.0,95.7,4.71,Fail,Not Placed
+S090,Mohit Pillai,Male,Information Technology,23.0,79.3,0.5,27.2,63.9,44.7,135.8,6.0,Pass,Not Placed
+S297,Sonal Sharma,Female,Electrical,21.0,91.1,12.4,22.6,50.9,38.4,111.9,5.49,Pass,Placed
+S007,Aditya Pillai,Male,Electronics,20.0,84.6,2.5,35.7,60.3,40.1,136.1,6.96,Pass,Placed
+S366,Ayaan Verma,Male,Electrical,19.0,79.6,2.9,17.9,67.1,26.6,111.6,5.57,Pass,Not Placed
+S350,Pooja Nair,Female,Electrical,23.0,63.1,2.5,33.9,42.2,21.4,83.2,4.2,Fail,Not Placed
+S343,Suresh Jain,Male,Information Technology,23.0,72.0,0.5,23.8,58.2,31.6,113.6,6.24,Pass,Not Placed
+S159,Vihaan Menon,Male,Civil,19.0,60.2,3.1,40.1,51.1,40.5,131.7,6.87,Pass,Placed
+S151,Diya Sinha,Female,Information Technology,19.0,73.8,2.5,38.7,57.8,36.1,132.6,6.96,Pass,Not Placed
+S178,Sahil Rao,Male,Computer Science,24.0,69.5,0.7,33.9,55.3,42.7,123.8,5.75,Pass,Not Placed
+S400,Divya Malhotra,Female,Civil,21.0,83.8,0.5,35.4,88.9,39.6,163.9,7.85,Pass,Placed
+S185,Aarav Bansal,Male,Mechanical,25.0,78.6,2.5,47.0,54.4,29.1,130.5,7.22,Pass,Not Placed
+S287,Deepak Reddy,Male,Computer Science,25.0,83.3,2.5,39.3,70.7,42.9,152.9,8.03,Pass,Not Placed
+S387,Karan Rao,Male,Computer Science,22.0,85.6,15.9,44.0,49.8,21.5,115.3,5.65,Pass,Not Placed
+S104,Krishna Bansal,Male,Civil,19.0,93.0,2.6,25.9,84.1,32.7,142.7,7.4,Pass,Placed
+S082,Meera Agarwal,Female,Electronics,21.0,79.3,2.5,30.9,42.0,37.4,110.3,5.84,Pass,Not Placed
+S039,Riya Singh,Female,Electronics,21.0,99.4,6.0,26.3,49.3,47.8,123.4,6.365,Pass,Placed
+S319,Aarav Malhotra,Male,Mechanical,22.0,79.3,3.2,36.6,55.8,40.0,132.4,5.91,Pass,Not Placed
+S199,Nisha Reddy,Female,Information Technology,21.0,86.6,0.5,31.9,66.6,46.1,144.6,7.56,Pass,Placed
+S262,Sara Rao,Female,Information Technology,23.0,84.4,1.7,21.9,71.2,39.8,132.9,6.365,Pass,Not Placed
+S147,Kavya Bhat,Female,Mechanical,21.0,67.3,3.3,42.1,68.2,34.4,144.7,7.77,Pass,Not Placed
+S399,Nisha Kapoor,Female,Information Technology,28.0,94.1,2.5,28.8,64.0,28.6,121.4,5.84,Pass,Not Placed
+S148,Ishaan Reddy,Male,Computer Science,22.0,70.3,1.7,35.5,50.5,28.9,114.9,5.75,Pass,Not Placed
+S311,Vivaan Sinha,Male,Computer Science,20.0,74.8,0.5,33.9,46.1,24.7,89.1,4.25,Fail,Not Placed
+S291,Suresh Iyer,Male,Electronics,19.0,79.1,2.5,21.5,28.3,43.8,93.6,4.31,Fail,Not Placed
+S124,Rahul Chauhan,Male,Civil,21.0,61.8,16.5,45.0,41.2,37.6,125.3,5.94,Pass,Not Placed
+S374,Simran Kapoor,Female,Electrical,23.0,76.2,2.7,33.9,61.5,41.6,132.6,6.53,Pass,Placed
+S097,Manish Patel,Male,Electrical,21.0,86.9,2.5,39.5,76.5,40.7,156.7,6.365,Pass,Placed
+S144,Suresh Verma,Male,Computer Science,19.0,54.4,0.5,33.4,67.5,45.3,146.2,7.47,Pass,Not Placed
+S240,Ishaan Pandey,Male,Electrical,20.0,76.7,2.1,35.1,85.9,36.9,157.9,7.41,Pass,Placed
+S479,Simran Patel,Female,Electronics,22.0,94.3,2.3,31.0,31.9,33.0,95.9,4.81,Fail,Not Placed
+S098,Aarav Kumar,Male,Information Technology,18.0,78.0,2.5,43.1,68.8,15.5,127.4,5.98,Pass,Not Placed
+S355,Raj Joshi,Male,Mechanical,24.0,79.3,0.5,49.8,44.7,43.6,138.1,6.75,Pass,Not Placed
+S123,Reyansh Gupta,Male,Computer Science,21.0,85.8,1.5,37.1,57.6,42.5,142.4,6.71,Pass,Placed
+S184,Kavya Shah,Female,Electronics,21.0,74.4,0.8,31.8,55.7,44.6,132.1,6.3,Pass,Placed
+S203,Akash Malhotra,Male,Electrical,22.0,68.6,1.3,41.3,77.7,32.0,151.0,7.57,Pass,Not Placed
+S247,Aarav Pillai,Male,Computer Science,19.0,64.1,2.5,43.7,42.1,46.7,132.5,6.55,Pass,Not Placed
+S422,Aadhya Sinha,Female,Computer Science,21.0,63.9,1.0,47.1,46.5,31.6,125.2,6.65,Pass,Placed
+S303,Ishaan Pandey,Male,Electrical,20.0,75.4,2.5,21.0,55.5,45.7,122.2,6.48,Pass,Not Placed
+S356,Archana Mishra,Female,Computer Science,19.0,89.4,1.8,34.5,61.8,40.9,137.2,6.39,Pass,Placed
+S305,Komal Reddy,Female,Electronics,22.0,76.0,3.9,33.5,52.0,44.5,130.0,6.08,Pass,Not Placed
+S435,Dev Bansal,Male,Computer Science,23.0,70.5,6.3,31.2,48.1,29.7,109.0,5.1,Pass,Not Placed
+S288,Suresh Bhat,Male,Computer Science,22.0,69.9,0.5,33.9,40.7,37.4,128.1,6.45,Pass,Placed
+S126,Rahul Jain,Male,Electrical,24.0,75.3,6.2,40.3,41.6,43.7,125.6,6.63,Pass,Not Placed
+S455,Manish Reddy,Male,Information Technology,20.0,70.9,0.8,44.1,76.1,41.3,161.5,7.94,Pass,Placed
+S224,Raj Mishra,Male,Electronics,21.0,79.3,1.8,32.5,84.0,22.7,139.2,6.28,Pass,Not Placed
+S425,Harsh Tiwari,Male,Mechanical,21.0,93.0,0.9,26.2,37.3,29.6,93.1,4.39,Fail,Not Placed
+S220,Tanya Bansal,Female,Civil,26.0,69.0,5.1,32.6,44.4,41.0,118.0,5.84,Pass,Not Placed
+S130,Rahul Agarwal,Male,Electronics,18.0,84.2,1.8,35.2,58.4,38.0,131.6,6.61,Pass,Not Placed
+S427,Sahil Malhotra,Male,Mechanical,26.0,65.8,2.5,50.0,37.8,40.3,128.1,6.05,Pass,Not Placed
+S403,Sahil Agarwal,Male,Electronics,21.0,79.3,0.5,42.8,69.6,44.4,156.8,8.02,Pass,Not Placed
+S333,Mohit Saxena,Male,Information Technology,19.0,82.8,5.4,46.5,48.4,37.0,131.9,6.22,Pass,Not Placed
+S408,Deepak Pillai,Male,Computer Science,21.0,74.8,1.7,31.6,58.5,46.8,136.9,6.27,Pass,Placed
+S477,Vikram Chauhan,Male,Electronics,23.0,85.4,4.6,20.9,45.1,48.5,114.5,5.4,Pass,Not Placed
+S299,Divya Mishra,Female,Information Technology,20.0,79.3,4.5,36.7,54.2,27.8,118.7,6.37,Pass,Not Placed
+S295,Nikhil Singh,Male,Information Technology,24.0,83.0,0.5,33.9,67.2,36.5,129.7,6.32,Pass,Not Placed
+S372,Suresh Tiwari,Male,Information Technology,19.0,64.8,0.5,47.5,61.4,39.9,148.8,7.35,Pass,Not Placed
+S391,Diya Tiwari,Female,Computer Science,22.0,67.2,2.5,40.6,38.4,37.6,124.8,6.365,Pass,Placed
+S113,Myra Pillai,Female,Electrical,20.0,69.0,1.1,28.1,54.0,48.3,130.4,6.28,Pass,Not Placed
+S180,Deepak Yadav,Male,Electronics,19.0,70.4,2.5,31.3,83.3,42.2,156.8,8.17,Pass,Placed
+S312,Vikram Iyer,Male,Mechanical,20.0,95.3,2.5,33.1,55.9,46.7,135.7,6.29,Pass,Not Placed
+S437,Rohan Mishra,Male,Information Technology,22.0,64.2,7.0,32.0,60.1,29.7,121.8,5.72,Pass,Placed
+S335,Akash Pillai,Male,Mechanical,20.0,74.0,1.9,23.5,30.3,46.7,100.5,6.365,Fail,Not Placed
+S490,Komal Joshi,Female,Electrical,21.0,64.2,2.5,35.3,61.2,42.7,139.2,5.87,Pass,Not Placed
+S365,Megha Shah,Female,Information Technology,18.0,84.5,3.0,38.1,77.3,33.5,148.9,7.06,Pass,Placed
+S234,Manish Mishra,Male,Civil,21.0,79.5,0.5,42.5,48.2,41.8,132.5,6.7,Pass,Not Placed
+S447,Sara Shah,Female,Information Technology,19.0,97.9,2.5,44.8,39.2,43.0,127.0,6.85,Pass,Not Placed
+S165,Ayaan Kumar,Male,Computer Science,24.0,80.1,4.0,38.9,52.7,35.4,127.0,5.26,Pass,Not Placed
+S137,Harsh Malhotra,Male,Electronics,23.0,79.3,1.0,42.7,66.3,33.6,142.6,7.33,Pass,Not Placed
+S198,Aanya Reddy,Female,Mechanical,23.0,82.2,2.5,33.9,53.0,38.1,121.8,6.25,Pass,Not Placed
+S259,Meera Pillai,Female,Computer Science,28.0,79.3,1.8,32.5,52.9,34.9,120.3,6.52,Pass,Not Placed
+S233,Diya Mehta,Female,Information Technology,24.0,72.3,1.7,34.8,59.7,42.9,137.4,7.51,Pass,Placed
+S116,Ritika Mehta,Female,Electrical,19.0,78.4,3.5,23.4,31.3,43.8,98.5,4.96,Fail,Placed
+S121,Tanya Sinha,Female,Computer Science,18.0,90.7,3.8,33.9,69.9,33.4,126.5,5.99,Pass,Not Placed
+S354,Karan Jain,Male,Information Technology,20.0,52.8,1.7,43.9,62.7,34.5,141.1,6.57,Pass,Placed
+S225,Ayaan Joshi,Male,Electrical,22.0,70.5,2.5,30.5,45.5,38.1,114.1,5.47,Pass,Not Placed
+S409,Riya Verma,Female,Civil,19.0,84.6,0.9,31.3,56.1,44.7,132.1,6.73,Pass,Placed
+S342,Raj Verma,Male,Electronics,29.0,79.9,2.5,27.8,60.3,29.4,117.5,6.28,Pass,Placed
+S128,Komal Patel,Female,Mechanical,20.0,79.1,3.7,40.6,67.4,40.6,148.6,7.53,Pass,Not Placed
+S286,Vikram Jain,Male,Electronics,22.0,99.9,3.1,37.6,70.5,38.5,146.6,7.0,Pass,Not Placed
+S418,Kartik Chauhan,Male,Electrical,25.0,79.3,1.2,25.1,42.9,40.2,108.2,4.87,Fail,Not Placed
+S108,Bhavna Iyer,Female,Computer Science,19.0,61.4,3.9,33.9,54.4,42.8,131.1,6.73,Pass,Placed
+S376,Reyansh Sharma,Male,Electronics,19.0,35.5,0.5,33.3,71.0,30.2,134.5,6.75,Pass,Not Placed
+S330,Reyansh Sharma,Male,Civil,20.0,75.6,2.8,44.0,79.2,39.4,162.6,8.87,Pass,Not Placed
+S134,Vikram Joshi,Male,Computer Science,21.0,63.9,0.5,37.3,33.4,31.1,101.8,5.2,Pass,Not Placed
+S369,Nikhil Iyer,Male,Electronics,19.0,81.5,11.2,33.9,35.8,17.8,100.7,5.07,Pass,Not Placed
+S045,Vivaan Yadav,Male,Civil,18.0,67.9,5.1,32.2,56.1,32.3,120.6,5.59,Pass,Not Placed
+S469,Mohit Malhotra,Male,Electronics,25.0,75.5,0.5,32.1,69.8,35.2,137.1,6.93,Pass,Placed
+S066,Aarav Saxena,Male,Computer Science,18.0,78.5,4.8,19.5,65.9,34.3,119.7,6.33,Pass,Placed
+S284,Pranav Kumar,Male,Electronics,20.0,93.5,9.8,45.6,36.7,37.6,119.9,6.06,Pass,Not Placed
+S086,Ayaan Singh,Male,Mechanical,21.0,81.3,0.7,35.8,47.3,41.0,124.1,6.62,Pass,Not Placed
+S243,Shruti Menon,Female,Civil,18.0,84.5,0.5,27.1,44.3,38.7,110.1,5.23,Pass,Not Placed
+S187,Aanya Menon,Female,Mechanical,20.0,81.0,0.5,29.7,48.5,40.6,118.8,6.36,Pass,Not Placed
+S426,Reyansh Nair,Male,Computer Science,18.0,77.2,1.8,40.4,37.4,33.8,111.6,6.365,Pass,Not Placed
+S160,Neha Menon,Female,Computer Science,21.0,83.7,2.5,33.9,71.2,41.3,142.1,7.8,Pass,Not Placed
+S013,Anjali Sinha,Female,Electrical,19.0,68.6,3.9,41.8,45.0,29.7,116.5,6.14,Pass,Not Placed
+S036,Tanya Reddy,Female,Electronics,25.0,69.0,2.8,29.7,56.0,23.8,109.5,5.56,Pass,Not Placed
+S029,Aanya Kumar,Female,Computer Science,18.0,81.4,1.4,22.7,33.6,29.2,85.5,4.3,Fail,Not Placed
+S171,Ritika Malhotra,Female,Electronics,19.0,79.3,4.1,35.1,66.8,43.9,145.8,6.88,Pass,Not Placed
+S143,Vihaan Shah,Male,Electronics,21.0,79.3,2.5,32.6,52.9,34.2,119.7,5.88,Pass,Not Placed
+S405,Suresh Yadav,Male,Electronics,18.0,25.5,3.2,38.7,59.2,42.2,140.1,6.86,Pass,Not Placed
+S347,Ananya Mishra,Female,Information Technology,20.0,67.3,0.9,39.2,59.8,43.6,142.6,7.21,Pass,Not Placed
+S222,Sonal Das,Female,Electronics,21.0,77.7,1.4,33.9,70.3,37.6,141.4,6.66,Pass,Not Placed
+S096,Varun Yadav,Male,Civil,22.0,81.3,0.5,50.0,40.1,31.4,121.5,6.55,Pass,Not Placed
+S052,Sonal Malhotra,Female,Information Technology,20.0,64.2,6.6,50.0,54.7,32.0,136.7,6.53,Pass,Not Placed
+S241,Meera Shah,Female,Electrical,20.0,74.0,1.5,24.2,59.9,32.9,117.0,5.62,Pass,Placed
+S378,Dev Chopra,Male,Electrical,18.0,80.4,6.5,27.8,32.8,43.5,104.1,4.99,Fail,Not Placed
+S385,Pooja Verma,Female,Computer Science,21.0,80.5,1.0,37.5,67.9,44.2,149.6,6.365,Pass,Placed
+S179,Aanya Patel,Female,Computer Science,25.0,95.2,0.5,29.8,44.1,30.4,104.3,6.365,Pass,Not Placed
+S042,Vivaan Jain,Male,Electrical,22.0,61.5,16.0,31.3,38.7,35.2,105.2,5.21,Pass,Not Placed
+S443,Rahul Saxena,Male,Computer Science,20.0,83.9,1.8,34.6,76.7,40.5,151.8,8.03,Pass,Placed
+S394,Ritika Rao,Female,Electrical,21.0,90.1,0.5,33.9,65.1,29.3,127.8,6.365,Pass,Placed
+S207,Manish Saxena,Male,Electronics,22.0,86.2,3.1,36.2,46.3,44.1,126.6,6.75,Pass,Not Placed
+S283,Vihaan Kumar,Male,Electronics,21.0,77.4,0.5,29.8,87.8,37.6,154.7,7.7,Pass,Not Placed
+S255,Sai Das,Male,Civil,20.0,85.7,0.6,26.1,58.0,49.3,133.4,6.365,Pass,Placed
+S419,Tanvi Nair,Female,Civil,25.0,73.2,1.5,46.8,56.1,40.6,143.5,7.23,Pass,Placed
+S005,Amit Pillai,Male,Electronics,20.0,79.3,3.9,21.9,51.2,44.7,117.8,5.97,Pass,Not Placed
+S257,Riya Saxena,Female,Electronics,20.0,93.1,3.2,31.4,68.4,39.7,139.5,6.76,Pass,Not Placed
+S456,Krishna Mishra,Male,Electrical,20.0,82.3,2.5,37.2,45.5,21.6,104.3,5.34,Pass,Not Placed
+S101,Vivaan Malhotra,Male,Electrical,24.0,79.1,0.5,37.4,62.9,36.7,137.0,6.5,Pass,Not Placed
+S227,Divya Pillai,Female,Electronics,19.0,89.8,1.9,21.8,56.0,33.3,111.1,5.24,Pass,Not Placed
+S434,Manish Singh,Male,Information Technology,19.0,93.5,3.0,33.9,59.2,32.5,121.1,6.94,Pass,Placed
+S214,Rohan Reddy,Male,Electronics,21.0,91.3,2.5,37.7,51.3,27.6,116.6,5.48,Pass,Not Placed
+S429,Gaurav Menon,Male,Electrical,19.0,88.1,0.7,38.0,70.9,28.8,137.7,7.31,Pass,Placed
+S172,Akash Saxena,Male,Information Technology,24.0,79.3,4.2,40.8,17.9,40.0,98.7,4.96,Fail,Not Placed
+S099,Krishna Rao,Male,Information Technology,22.0,90.7,8.7,43.9,37.8,39.0,120.7,5.76,Pass,Not Placed
+S293,Tanya Kumar,Female,Electronics,23.0,75.1,2.5,33.7,47.2,41.0,121.9,6.17,Pass,Not Placed
+S216,Gaurav Menon,Male,Computer Science,19.0,79.3,8.5,26.7,73.5,45.5,145.7,7.43,Pass,Not Placed
+S062,Akash Shah,Male,Mechanical,18.0,69.7,0.9,25.2,100.0,41.6,166.8,8.95,Pass,Not Placed
+S048,Kartik Sharma,Male,Information Technology,21.0,84.0,2.5,40.5,64.9,30.5,135.9,6.38,Pass,Not Placed
+S033,Arjun Nair,Male,Information Technology,21.0,77.1,2.5,30.5,36.0,29.5,96.0,4.71,Fail,Not Placed
+S268,Aanya Pandey,Female,Electrical,22.0,70.1,3.2,26.7,63.7,41.6,132.0,6.47,Pass,Not Placed
+S328,Megha Pillai,Female,Mechanical,20.0,76.1,1.5,27.2,52.3,40.2,119.7,6.03,Pass,Not Placed
+S201,Pallavi Patel,Female,Information Technology,21.0,75.8,4.1,22.4,52.1,37.6,112.1,5.12,Pass,Not Placed
+S454,Komal Verma,Female,Electrical,22.0,79.3,16.0,31.3,40.0,44.2,115.5,5.32,Pass,Not Placed
+S028,Gaurav Malhotra,Male,Computer Science,19.0,66.1,2.5,35.7,50.9,41.4,128.0,6.44,Pass,Placed
+S396,Pooja Menon,Female,Electronics,22.0,72.0,2.5,31.5,62.3,37.7,131.5,7.1,Pass,Placed
+S231,Nisha Sharma,Female,Information Technology,21.0,78.1,2.5,37.2,55.9,44.7,137.8,6.75,Pass,Not Placed
+S261,Archana Shah,Female,Information Technology,18.0,74.5,0.5,37.5,71.6,35.6,144.7,7.0,Pass,Placed
+S379,Archana Bhat,Female,Information Technology,23.0,85.2,1.2,46.3,73.8,30.3,150.4,7.65,Pass,Placed
+S289,Varun Mehta,Male,Information Technology,20.0,79.3,2.3,38.6,51.7,40.9,131.2,5.96,Pass,Not Placed
+S163,Sneha Chauhan,Female,Electronics,23.0,69.2,1.8,33.9,76.8,33.2,144.2,7.21,Pass,Not Placed
+S432,Ritika Iyer,Female,Electrical,21.0,81.1,4.6,31.3,49.5,29.8,110.6,5.84,Pass,Not Placed
+S139,Harsh Singh,Male,Information Technology,19.0,88.3,2.5,25.4,88.9,38.9,153.2,7.34,Pass,Not Placed
+S063,Jyoti Bhat,Female,Computer Science,22.0,79.3,4.1,41.0,74.1,21.4,136.5,6.09,Pass,Not Placed
+S136,Akash Rao,Male,Computer Science,19.0,70.6,2.5,27.0,74.0,37.6,142.9,7.32,Pass,Placed
+S129,Aditya Bhat,Male,Civil,19.0,79.3,2.5,39.5,78.4,40.0,157.9,7.87,Pass,Not Placed
+S485,Komal Shah,Female,Mechanical,20.0,94.6,1.2,32.4,75.4,41.2,149.0,6.365,Pass,Not Placed
+S009,Divya Kumar,Female,Information Technology,22.0,79.3,1.8,34.9,28.9,47.2,111.0,5.39,Pass,Placed
+S327,Ritika Yadav,Female,Electronics,19.0,77.3,3.1,30.4,56.8,33.9,121.1,7.42,Pass,Not Placed
+S472,Swati Malhotra,Female,Mechanical,22.0,93.6,2.9,19.4,43.5,25.8,88.7,4.44,Fail,Not Placed
+S065,Harsh Patel,Male,Computer Science,21.0,81.0,3.4,37.3,46.5,42.3,126.1,6.17,Pass,Not Placed
+S301,Rahul Reddy,Male,Computer Science,19.0,72.9,1.8,33.9,86.5,39.2,166.1,8.21,Pass,Placed
+S015,Karan Saxena,Male,Electronics,21.0,81.8,2.5,22.9,71.7,37.5,132.1,6.81,Pass,Not Placed
+S157,Aadhya Patel,Female,Computer Science,21.0,59.6,2.5,28.7,71.8,45.6,146.1,7.29,Pass,Not Placed
+S041,Vikram Mishra,Male,Mechanical,19.0,95.6,7.7,39.0,74.1,46.6,159.7,7.65,Pass,Placed
+S380,Vihaan Pillai,Male,Mechanical,20.0,89.8,0.5,27.6,70.8,37.8,136.2,6.86,Pass,Not Placed
+S468,Kavya Sinha,Female,Mechanical,19.0,52.3,4.7,34.0,60.4,44.5,138.9,6.84,Pass,Placed
+S410,Karan Kumar,Male,Electrical,21.0,92.3,0.5,34.4,49.1,42.0,125.5,6.73,Pass,Placed
+S217,Aditya Tiwari,Male,Mechanical,23.0,79.3,0.5,28.8,48.2,26.5,103.5,5.01,Pass,Not Placed
+S280,Megha Iyer,Female,Electrical,23.0,76.3,17.7,32.9,62.9,45.3,141.1,7.24,Pass,Placed
+S442,Diya Chauhan,Female,Information Technology,20.0,67.2,2.8,46.2,96.8,35.4,178.4,9.47,Pass,Placed
+S438,Neha Singh,Female,Mechanical,21.0,72.6,2.5,31.8,64.0,37.5,133.3,6.87,Pass,Not Placed
+S338,Simran Mishra,Female,Information Technology,20.0,76.7,3.3,18.2,51.3,39.5,109.0,5.76,Pass,Not Placed
+S208,Neha Reddy,Female,Electronics,21.0,88.6,2.5,30.0,56.3,38.3,124.6,6.28,Pass,Not Placed
+S213,Archana Mishra,Female,Computer Science,20.0,79.3,4.2,19.4,56.9,42.4,118.7,6.19,Pass,Not Placed
+S296,Suresh Chauhan,Male,Electronics,20.0,76.4,7.3,26.9,58.6,43.6,129.1,6.25,Pass,Placed
+S465,Bhavna Patel,Female,Electronics,22.0,27.9,2.8,41.5,56.6,40.7,138.8,7.61,Pass,Placed
+S252,Ishaan Kumar,Male,Computer Science,19.0,56.3,9.9,30.9,77.5,35.0,143.4,7.53,Pass,Not Placed
+S497,Anjali Menon,Female,Electronics,22.0,91.7,2.8,20.3,73.2,49.4,142.9,7.25,Pass,Not Placed
+S466,Vivaan Rao,Male,Computer Science,19.0,80.3,2.5,40.4,59.7,33.6,133.7,6.365,Pass,Not Placed
+S304,Sonal Tiwari,Female,Information Technology,21.0,87.4,9.6,35.0,68.6,23.7,127.3,6.27,Pass,Placed
+S351,Dev Mehta,Male,Computer Science,21.0,79.3,0.6,31.0,74.0,32.8,137.8,7.23,Pass,Not Placed
+S270,Ishaan Mishra,Male,Computer Science,20.0,79.3,3.0,29.0,59.1,31.0,119.1,5.91,Pass,Placed
+S202,Karan Gupta,Male,Electrical,19.0,85.3,1.0,30.9,57.6,30.5,116.2,6.54,Pass,Not Placed
+S162,Pallavi Chauhan,Female,Electrical,23.0,81.1,2.5,43.3,55.6,35.9,134.8,6.34,Pass,Not Placed
+S044,Komal Bansal,Female,Information Technology,20.0,76.7,0.8,30.6,71.8,34.6,137.0,6.74,Pass,Not Placed
+S218,Aanya Kumar,Female,Information Technology,21.0,77.6,1.3,28.0,40.5,41.3,109.8,5.66,Pass,Not Placed
+S402,Priya Verma,Female,Information Technology,19.0,73.6,0.7,29.2,49.2,38.2,116.6,5.15,Pass,Not Placed
+S191,Sai Kapoor,Male,Mechanical,22.0,77.6,0.5,32.7,58.5,30.3,121.5,5.14,Pass,Not Placed
+S310,Raj Sinha,Male,Information Technology,26.0,64.4,14.2,35.2,47.4,43.6,126.2,6.38,Pass,Not Placed
+S260,Ayaan Kumar,Male,Mechanical,19.0,67.0,1.4,37.2,52.1,36.9,126.2,6.18,Pass,Not Placed
+S106,Harsh Yadav,Male,Mechanical,22.0,65.1,8.1,39.2,70.4,48.0,157.6,7.12,Pass,Placed
+S054,Swati Shah,Female,Civil,22.0,79.3,2.5,29.0,37.4,46.6,113.0,6.42,Pass,Not Placed
+S390,Bhavna Reddy,Female,Computer Science,30.0,86.1,2.5,42.8,65.4,19.8,128.0,6.33,Pass,Not Placed
+S002,Sneha Sharma,Female,Electrical,21.0,73.0,2.5,38.1,51.4,27.7,117.2,5.97,Pass,Not Placed
+S449,Aditya Pandey,Male,Mechanical,18.0,97.6,0.5,14.9,42.8,37.8,95.5,4.81,Fail,Not Placed
+S491,Nikhil Shah,Male,Information Technology,19.0,80.5,2.5,26.6,84.2,44.0,154.8,8.02,Pass,Placed
+S050,Arjun Menon,Male,Civil,18.0,73.0,13.5,35.7,68.7,32.3,136.7,7.42,Pass,Placed
+S420,Ritika Tiwari,Female,Information Technology,20.0,65.4,17.3,30.9,75.3,31.2,137.4,7.45,Pass,Not Placed
+S081,Neha Bhat,Female,Mechanical,22.0,74.7,2.5,50.0,68.9,43.0,161.9,7.73,Pass,Not Placed
+S206,Raj Mehta,Male,Electrical,19.0,88.5,5.8,41.1,57.6,15.7,116.8,6.3,Pass,Placed
+S035,Nisha Tiwari,Female,Information Technology,18.0,85.7,6.1,29.4,71.0,38.6,139.0,7.37,Pass,Not Placed
+S431,Vivaan Jain,Male,Mechanical,19.0,77.0,1.4,31.4,74.6,46.7,152.7,7.34,Pass,Not Placed
+S264,Mohit Bhat,Male,Computer Science,24.0,92.7,2.5,34.1,66.9,45.0,146.0,7.07,Pass,Placed
+S428,Komal Tiwari,Female,Civil,24.0,79.3,2.5,41.0,95.2,32.6,168.8,8.99,Pass,Not Placed
+S367,Myra Saxena,Female,Computer Science,24.0,73.1,7.4,31.5,49.8,45.3,126.6,6.29,Pass,Not Placed
+S092,Komal Bhat,Female,Computer Science,24.0,72.0,3.0,15.1,99.6,47.7,162.4,7.61,Pass,Not Placed
+S340,Aarav Mehta,Male,Electrical,18.0,61.5,3.4,33.9,37.3,37.6,108.1,5.32,Pass,Not Placed
+S482,Kavya Shah,Female,Electrical,20.0,79.3,1.9,28.4,61.3,39.4,129.1,7.14,Pass,Not Placed
+S053,Simran Shah,Female,Electronics,19.0,93.4,1.4,34.5,61.6,37.9,134.0,6.82,Pass,Not Placed
+S346,Divya Singh,Female,Computer Science,22.0,80.3,2.5,44.2,51.9,31.3,127.4,5.9,Pass,Placed
+S265,Divya Singh,Female,Electrical,21.0,79.3,0.8,29.5,71.0,43.7,144.2,7.61,Pass,Not Placed
+S242,Archana Sharma,Female,Mechanical,19.0,79.3,2.5,33.9,64.1,35.6,138.6,7.5,Pass,Not Placed
+S014,Sahil Kumar,Male,Electrical,22.0,78.4,1.1,33.0,35.6,37.6,99.2,5.83,Pass,Placed
+S316,Sonal Joshi,Female,Mechanical,24.0,80.3,3.6,30.4,69.7,44.6,144.7,6.99,Pass,Placed
+S089,Myra Gupta,Female,Information Technology,19.0,70.5,2.5,33.9,63.6,38.4,135.9,6.71,Pass,Not Placed
+S388,Ankit Kumar,Male,Electrical,19.0,80.1,4.0,34.2,75.0,39.7,148.9,8.09,Pass,Placed
+S274,Tanya Iyer,Female,Electrical,21.0,81.9,0.5,38.5,42.6,32.3,113.4,5.67,Pass,Not Placed
+S167,Sai Verma,Male,Civil,19.0,67.8,0.5,40.9,39.0,46.9,126.8,6.68,Pass,Placed
+S329,Ayaan Malhotra,Male,Electrical,24.0,77.6,5.6,20.9,72.4,44.3,137.6,6.87,Pass,Placed
+S135,Ritika Bansal,Female,Civil,19.0,70.2,4.4,35.6,72.1,38.2,145.9,7.75,Pass,Not Placed
+S307,Harsh Bansal,Male,Computer Science,23.0,89.1,5.8,31.1,68.2,35.8,135.1,5.84,Pass,Not Placed
+S489,Tanvi Yadav,Female,Civil,21.0,69.2,4.6,36.4,57.2,28.3,121.9,6.94,Pass,Placed
+S320,Varun Iyer,Male,Electronics,27.0,84.0,8.1,47.0,56.9,25.1,129.0,6.37,Pass,Not Placed
+S244,Reyansh Sinha,Male,Civil,21.0,81.2,7.5,26.7,71.1,39.0,136.8,7.47,Pass,Not Placed
+S055,Aanya Tiwari,Female,Mechanical,22.0,79.3,3.2,34.9,21.8,43.8,100.5,4.98,Fail,Not Placed
+S364,Dev Sharma,Male,Information Technology,19.0,80.0,2.5,31.5,41.8,43.2,116.5,5.64,Pass,Not Placed
+S051,Bhavna Sinha,Female,Mechanical,18.0,76.6,3.9,32.7,59.8,23.9,116.4,5.8,Pass,Not Placed
+S498,Ankit Joshi,Male,Electrical,22.0,86.6,1.8,27.6,57.6,29.5,106.5,5.59,Pass,Not Placed
+S175,Diya Shah,Female,Information Technology,22.0,80.2,2.4,35.4,30.4,35.1,100.9,5.07,Pass,Placed
+S446,Ananya Bansal,Female,Civil,20.0,52.6,0.5,30.4,55.0,43.4,128.8,6.23,Pass,Placed
+S190,Aditya Sharma,Male,Computer Science,21.0,81.5,2.7,45.6,40.8,40.5,126.9,5.9,Pass,Placed
+S464,Kavya Bhat,Female,Computer Science,26.0,69.2,2.2,26.1,30.4,41.3,97.8,5.45,Pass,Placed
+S188,Neha Singh,Female,Mechanical,21.0,85.6,2.5,35.3,54.1,15.8,105.2,5.48,Pass,Not Placed
+S170,Meera Patel,Female,Electrical,19.0,69.3,3.0,35.2,43.2,34.9,113.3,5.86,Pass,Placed
+S059,Gaurav Verma,Male,Electrical,20.0,85.0,2.0,31.5,42.2,27.0,100.7,5.07,Pass,Not Placed
+S049,Suresh Rao,Male,Computer Science,18.0,91.0,2.5,21.1,12.3,30.6,64.0,3.03,Fail,Not Placed
+S345,Akash Patel,Male,Information Technology,20.0,89.7,2.5,49.0,63.8,35.3,148.1,7.7,Pass,Not Placed
+S236,Isha Bhat,Female,Electronics,20.0,93.5,2.5,31.8,51.9,35.8,119.5,5.67,Pass,Placed
+S253,Jyoti Nair,Female,Information Technology,20.0,81.0,3.7,25.7,47.3,36.4,109.4,5.5,Pass,Not Placed
+S022,Mohit Malhotra,Male,Computer Science,20.0,95.1,2.5,35.0,70.1,25.0,130.1,6.37,Pass,Not Placed
+S314,Jyoti Bhat,Female,Civil,20.0,97.0,0.5,38.4,69.2,43.2,150.8,7.91,Pass,Not Placed
+S460,Ishaan Agarwal,Male,Electronics,20.0,79.3,1.6,33.8,53.0,39.9,126.7,6.59,Pass,Placed
+S161,Akash Menon,Male,Mechanical,22.0,81.5,2.5,44.6,57.8,47.2,149.6,7.06,Pass,Not Placed
+S277,Bhavna Kapoor,Female,Civil,22.0,86.6,1.8,33.9,62.3,41.2,124.5,6.74,Pass,Not Placed
+S444,Suresh Yadav,Male,Electrical,22.0,93.2,2.6,50.0,61.3,45.9,157.2,8.68,Pass,Placed
+S192,Pallavi Nair,Female,Civil,19.0,67.8,2.5,22.5,30.3,24.0,76.8,4.34,Fail,Not Placed
+S386,Myra Chauhan,Female,Computer Science,20.0,94.3,1.6,49.6,72.7,43.2,165.5,7.95,Pass,Not Placed
+S294,Manish Bansal,Male,Electrical,20.0,88.4,9.9,27.5,80.6,39.8,147.9,7.44,Pass,Placed
+S414,Sneha Patel,Female,Computer Science,19.0,71.2,2.8,31.1,68.6,39.2,138.9,7.1,Pass,Placed
+S344,Vikram Kapoor,Male,Computer Science,21.0,86.8,3.2,35.6,64.7,40.6,140.9,6.67,Pass,Placed
+S258,Shruti Saxena,Female,Mechanical,19.0,65.7,3.1,43.4,59.5,40.7,143.6,6.78,Pass,Not Placed
+S309,Diya Joshi,Female,Computer Science,19.0,79.3,2.5,34.4,61.1,29.8,125.3,6.73,Pass,Placed
+S150,Ankit Bansal,Male,Computer Science,20.0,50.4,0.5,27.3,52.9,34.8,115.0,5.63,Pass,Not Placed
+S131,Karan Kumar,Male,Mechanical,20.0,72.3,2.5,19.3,45.7,27.4,92.4,5.27,Pass,Not Placed
+S152,Pranav Sinha,Male,Mechanical,22.0,84.2,0.5,32.8,47.9,45.9,126.6,5.83,Pass,Not Placed
+S360,Jyoti Pillai,Female,Computer Science,22.0,84.5,6.4,39.4,49.7,47.9,137.0,6.88,Pass,Not Placed
+S100,Deepak Mehta,Male,Computer Science,20.0,66.5,1.8,12.0,95.0,30.3,137.3,6.67,Pass,Placed
+S373,Nikhil Chauhan,Male,Information Technology,22.0,79.3,0.7,30.9,57.3,36.6,124.8,5.79,Pass,Not Placed
+S088,Pallavi Agarwal,Female,Electronics,24.0,87.8,3.8,33.9,57.9,37.6,125.8,6.365,Pass,Not Placed
+S459,Rohan Mishra,Male,Information Technology,23.0,91.4,1.9,36.8,57.7,21.1,115.6,6.09,Pass,Not Placed
+S331,Sahil Menon,Male,Information Technology,20.0,72.7,6.1,33.9,70.9,29.5,134.5,6.18,Pass,Not Placed
+S215,Aanya Mehta,Female,Electronics,23.0,78.4,1.6,40.9,42.9,41.1,124.9,6.99,Pass,Not Placed
+S467,Dev Kumar,Male,Electrical,19.0,75.8,0.8,41.5,58.9,30.8,131.2,6.1,Pass,Not Placed
+S122,Pallavi Bhat,Female,Information Technology,20.0,79.3,2.8,23.2,68.1,21.2,112.5,5.47,Pass,Not Placed
+S021,Ritika Sinha,Female,Computer Science,22.0,71.0,3.8,23.5,58.0,42.4,123.9,6.24,Pass,Not Placed
+S189,Sahil Iyer,Male,Computer Science,20.0,77.9,2.5,33.7,39.4,38.8,111.9,6.56,Pass,Not Placed
+S072,Ishaan Saxena,Male,Electrical,21.0,83.9,0.5,37.7,62.0,37.6,125.6,6.69,Pass,Not Placed
+S107,Rahul Saxena,Male,Civil,19.0,82.3,5.5,37.5,71.8,36.6,145.9,7.45,Pass,Not Placed
+S271,Aadhya Patel,Female,Mechanical,19.0,79.3,1.5,10.9,54.5,33.0,98.4,4.86,Fail,Not Placed
+S349,Reyansh Gupta,Male,Electronics,20.0,80.0,0.5,33.9,53.9,39.0,125.8,6.12,Pass,Placed
+S436,Archana Tiwari,Female,Electrical,23.0,69.4,2.5,31.1,68.2,25.6,124.9,6.83,Pass,Not Placed
+S103,Sahil Sinha,Male,Electronics,22.0,92.0,1.2,24.6,91.7,35.8,152.1,7.73,Pass,Not Placed
