@@ -1,11 +1,12 @@
-# Part 1 - Data Acquisition, Cleaning, and Exploratory Analysis
+# EDA Assignment - Data Analysis and Machine Learning
 
-A comprehensive Python-based Exploratory Data Analysis (EDA) project that demonstrates the complete data science workflow — from data acquisition and cleaning to statistical analysis and visualization — using a realistic synthetic student performance dataset.
+A comprehensive Python-based data science project covering **Part 1 (EDA)** and **Part 2 (Machine Learning)**. The project demonstrates the complete workflow — from data acquisition and cleaning to statistical analysis, visualization, regression, classification, and model evaluation — using a realistic synthetic student performance dataset.
 
 ---
 
 ## Table of Contents
 
+### Part 1 - EDA
 1. [Project Overview](#project-overview)
 2. [Folder Structure](#folder-structure)
 3. [Dataset Description](#dataset-description)
@@ -21,18 +22,44 @@ A comprehensive Python-based Exploratory Data Analysis (EDA) project that demons
 13. [Heatmap Interpretation](#heatmap-interpretation)
 14. [Pearson vs Spearman Interpretation](#pearson-vs-spearman-interpretation)
 15. [GroupBy Interpretation](#groupby-interpretation)
-16. [Conclusion](#conclusion)
+16. [Part 1 Conclusion](#part-1-conclusion)
+
+### Part 2 - Machine Learning
+17. [Target Definitions](#target-definitions)
+18. [Encoding Decisions](#encoding-decisions)
+19. [Train/Test Split Explanation](#traintest-split-explanation)
+20. [Scaling Explanation & Data Leakage](#scaling-explanation--data-leakage)
+21. [Linear Regression Interpretation](#linear-regression-interpretation)
+22. [Coefficient Interpretation](#coefficient-interpretation)
+23. [Ridge Regression Explanation](#ridge-regression-explanation)
+24. [Logistic Regression Explanation](#logistic-regression-explanation)
+25. [Confusion Matrix Interpretation](#confusion-matrix-interpretation)
+26. [Precision & Recall Formulas](#precision--recall-formulas)
+27. [ROC & AUC Explanation](#roc--auc-explanation)
+28. [Threshold Comparison Explanation](#threshold-comparison-explanation)
+29. [Regularization Explanation (C Parameter)](#regularization-explanation-c-parameter)
+30. [Bootstrap & Confidence Interval Interpretation](#bootstrap--confidence-interval-interpretation)
+31. [Part 2 Conclusion](#part-2-conclusion)
 
 ---
 
 ## Project Overview
 
-This project is designed as **Part 1** of a college Data Analysis assignment. It covers the foundational stages of any data science pipeline:
+This project is designed as a two-part college Data Analysis assignment.
+
+**Part 1** covers the foundational stages of any data science pipeline:
 
 - **Data Acquisition**: A realistic synthetic dataset of 500 student records is generated with deliberate imperfections (missing values, duplicates, incorrect data types, outliers, and skewed distributions) to simulate real-world data.
 - **Data Cleaning**: Missing values are imputed using median strategies, duplicates are detected and removed, and data types are corrected.
 - **Exploratory Analysis**: Descriptive statistics, skewness analysis, outlier detection (IQR method), correlation analysis (Pearson & Spearman), and GroupBy aggregations are performed.
 - **Visualization**: Six professional-quality visualizations are created (Line Plot, Bar Chart, Histogram, Scatter Plot, Box Plot, and Correlation Heatmap).
+
+**Part 2** builds on the cleaned dataset and implements machine learning:
+
+- **Regression**: Linear Regression and Ridge Regression to predict TotalMarks
+- **Classification**: Logistic Regression to classify students as above/below median performance
+- **Model Evaluation**: Confusion matrix, ROC/AUC, threshold sensitivity analysis
+- **Statistical Testing**: Bootstrap confidence intervals for model comparison
 
 ### How to Run
 
@@ -43,11 +70,15 @@ pip install -r requirements.txt
 # 2. Generate the synthetic dataset
 python generate_dataset.py
 
-# 3. Run the Python script
+# 3. Run Part 1 (EDA)
 python part1_eda.py
 
-# 4. OR open the Jupyter Notebook
+# 4. Run Part 2 (ML)
+python part2_ml.py
+
+# 5. OR open the Jupyter Notebooks
 jupyter notebook Part1_EDA.ipynb
+jupyter notebook Part2_ML.ipynb
 ```
 
 ---
@@ -68,9 +99,12 @@ EDA_Assignment/
 |   |-- scatter_plot.png        # Study Hours vs CGPA
 |   |-- box_plot.png            # Box Plot of key numeric columns
 |   |-- heatmap.png             # Pearson Correlation Heatmap
+|   |-- roc_curve.png           # ROC Curve for Logistic Regression
 |
-|-- Part1_EDA.ipynb             # Jupyter Notebook (interactive version)
-|-- part1_eda.py                # Python script (non-interactive version)
+|-- Part1_EDA.ipynb             # Part 1 Jupyter Notebook
+|-- Part2_ML.ipynb              # Part 2 Jupyter Notebook
+|-- part1_eda.py                # Part 1 Python script
+|-- part2_ml.py                 # Part 2 Python script
 |-- generate_dataset.py         # Dataset generation script
 |-- README.md                   # This file
 |-- requirements.txt            # Python dependencies
@@ -315,7 +349,7 @@ The relatively similar means across departments (range of ~5.6 marks) suggest th
 
 ---
 
-## Conclusion
+## Part 1 Conclusion
 
 This EDA project successfully demonstrated the complete data cleaning and exploratory analysis pipeline:
 
@@ -334,6 +368,300 @@ This EDA project successfully demonstrated the complete data cleaning and explor
 5. **Correlation Methods**: Pearson and Spearman correlations largely agree (differences < 0.10), confirming approximately linear relationships in the dataset.
 
 ---
+---
+
+# Part 2 - Machine Learning: Regression and Classification
+
+This section builds on the cleaned dataset from Part 1 and applies machine learning techniques for prediction and classification.
+
+---
+
+## Target Definitions
+
+### Regression Target (`y_reg`)
+- **Column**: `TotalMarks`
+- **Type**: Continuous numeric
+- **Goal**: Predict the total marks a student will score based on their features
+- **Statistics**: Mean = 127.52, Std = 18.07, Range = [64.0, 179.1]
+
+### Classification Target (`y_clf`)
+- **Definition**: `y_clf = (TotalMarks > TotalMarks.median()).astype(int)`
+- **Threshold**: TotalMarks > 127.4 (the median)
+- **Class 0**: Below or equal to median (251 students)
+- **Class 1**: Above median (249 students)
+- **Balance**: Nearly balanced (50.2% vs 49.8%) — no severe imbalance
+
+### Feature Selection
+Columns **dropped** from the feature matrix:
+- `StudentID`, `Name`: Identifiers, not predictive features
+- `TotalMarks`: The target variable itself
+- `CGPA`, `Result`: Derived from TotalMarks (would cause **data leakage**)
+- `PlacementStatus`: A downstream outcome, not a predictor
+
+**Final features used**: Gender, Department, Age, Attendance, StudyHours, AssignmentMarks, ExamMarks, ProjectMarks
+
+---
+
+## Encoding Decisions
+
+| Column | Type | Encoding Method | Rationale |
+|--------|------|-----------------|----------|
+| Gender | Binary nominal | **Label Encoding** (Female=0, Male=1) | Only 2 categories; label encoding is equivalent to one-hot for binary features |
+| Department | Multi-class nominal | **One-Hot Encoding** (`drop_first=True`) | No natural ordering; 6 categories create 5 dummy columns |
+
+**Why `drop_first=True`?** Dropping one dummy column avoids **multicollinearity** (the dummy variable trap). With 6 departments, we create 5 columns — the dropped category becomes the baseline reference.
+
+**Result**: 8 original features expanded to **12 encoded features**.
+
+---
+
+## Train/Test Split Explanation
+
+```python
+train_test_split(X, y, test_size=0.20, random_state=42)
+```
+
+| Split | Size | Purpose |
+|-------|------|--------|
+| Training set | 400 samples (80%) | Used to train the model — the model learns patterns from this data |
+| Test set | 100 samples (20%) | Used to evaluate the model — simulates unseen, real-world data |
+
+**Why 80/20?** This is a standard split that provides enough training data while retaining sufficient test data for reliable evaluation. With 500 samples, 100 test samples give reasonable confidence in metric estimates.
+
+**`random_state=42`**: Ensures reproducibility — the same split occurs every time the code is run.
+
+---
+
+## Scaling Explanation & Data Leakage
+
+### Why Scale?
+StandardScaler transforms each feature to have **mean = 0** and **standard deviation = 1**. This is critical because:
+- Linear models treat all features equally in their optimization — a feature with range [0, 100] would dominate one with range [0, 1]
+- Regularization penalties (Ridge, Logistic Regression with C) are sensitive to feature magnitudes
+
+### Data Leakage Prevention
+```python
+scaler.fit_transform(X_train)    # Fit + transform on training data
+scaler.transform(X_test)          # Transform only on test data
+```
+
+**Critical rule**: The scaler is fitted **only on training data**. If we fit on the entire dataset, the scaler would learn test-set statistics (mean, std) and leak future information into training — this is called **data leakage**.
+
+**Consequence of leakage**: Artificially inflated performance metrics that won't generalize to truly unseen data.
+
+---
+
+## Linear Regression Interpretation
+
+| Metric | Value |
+|--------|-------|
+| Mean Squared Error (MSE) | 9.2987 |
+| R-squared (R2) | **0.9639** |
+
+**R2 = 0.9639** means the model explains **96.4% of the variance** in TotalMarks. This is exceptionally high because TotalMarks is the sum of AssignmentMarks + ExamMarks + ProjectMarks — the component scores are near-perfect predictors of their sum.
+
+**MSE = 9.30** means the average squared prediction error is about 9.3 marks-squared, or approximately +/-3 marks on average (sqrt(9.3) = 3.05).
+
+---
+
+## Coefficient Interpretation
+
+| Feature | Coefficient | Interpretation |
+|---------|------------|----------------|
+| **ExamMarks** | **14.76** | Strongest predictor — a 1-std increase in ExamMarks increases TotalMarks by ~14.8 |
+| **AssignmentMarks** | **7.74** | Second strongest — significant positive impact |
+| **ProjectMarks** | **7.49** | Third strongest — nearly equal to AssignmentMarks |
+| Department_Mechanical | 0.22 | Negligible effect |
+| Gender | 0.13 | Negligible effect |
+| StudyHours | -0.03 | Essentially no effect |
+| Age | -0.23 | Slight negative (older students score marginally lower) |
+
+**Key insight**: The three component scores (Exam, Assignment, Project) dominate predictions because TotalMarks is their sum. Demographic and behavioral features (Gender, Age, Attendance, StudyHours, Department) have negligible coefficients, confirming they don't significantly predict total marks.
+
+---
+
+## Ridge Regression Explanation
+
+Ridge Regression adds an **L2 regularization penalty** to the linear regression loss function:
+
+$$\text{Loss} = \sum(y_i - \hat{y}_i)^2 + \alpha \sum \beta_j^2$$
+
+| Metric | Linear Regression | Ridge (alpha=1.0) |
+|--------|-------------------|---------|
+| MSE | 9.2987 | 9.2814 |
+| R2 | 0.96387 | 0.96394 |
+
+**Observation**: Ridge performs almost identically to OLS Linear Regression. This is expected because:
+1. The model isn't overfitting (R2 is already very stable)
+2. Alpha=1.0 applies only mild regularization
+3. The relationship is genuinely linear (marks sum = component marks)
+
+**When Ridge helps**: Ridge shines when there are many correlated features or when the model overfits. Here, with clean linear relationships, regularization adds minimal benefit.
+
+---
+
+## Logistic Regression Explanation
+
+Logistic Regression models the **probability** that a student belongs to the "Above Median" class:
+
+$$P(y=1|X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + ... + \beta_n x_n)}}$$
+
+**Parameters used**:
+- `C=1.0`: Inverse regularization strength (higher C = less regularization)
+- `max_iter=1000`: Maximum optimization iterations to ensure convergence
+- `class_weight=None`: Classes are balanced (49% vs 51%), so no reweighting needed
+
+**Class imbalance check**: The minority class is at 49.0%, well above the 35% threshold, so `class_weight='balanced'` was not needed.
+
+---
+
+## Confusion Matrix Interpretation
+
+```
+              Predicted: 0    Predicted: 1
+Actual: 0        TN=45           FP=2
+Actual: 1        FN=4            TP=49
+```
+
+| Cell | Count | Meaning |
+|------|-------|---------|
+| **True Negatives (TN)** | 45 | Correctly identified as below median |
+| **False Positives (FP)** | 2 | Below-median students incorrectly classified as above |
+| **False Negatives (FN)** | 4 | Above-median students missed (classified as below) |
+| **True Positives (TP)** | 49 | Correctly identified as above median |
+
+**Total errors**: Only 6 out of 100 test samples were misclassified (94% accuracy).
+
+---
+
+## Precision & Recall Formulas
+
+### Precision
+$$\text{Precision} = \frac{TP}{TP + FP} = \frac{49}{49 + 2} = 0.9608$$
+
+**Interpretation**: Of all students the model predicted as "Above Median", 96.1% actually were above median. High precision means few false alarms.
+
+### Recall (Sensitivity)
+$$\text{Recall} = \frac{TP}{TP + FN} = \frac{49}{49 + 4} = 0.9245$$
+
+**Interpretation**: Of all students who actually were above median, the model correctly identified 92.5%. High recall means few missed cases.
+
+### F1 Score
+$$F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = 0.9423$$
+
+The harmonic mean of precision and recall, providing a single balanced metric.
+
+### Accuracy
+$$\text{Accuracy} = \frac{TP + TN}{Total} = \frac{49 + 45}{100} = 0.9400$$
+
+---
+
+## ROC & AUC Explanation
+
+![ROC Curve](images/roc_curve.png)
+
+**ROC Curve** (Receiver Operating Characteristic) plots **True Positive Rate (Recall)** vs **False Positive Rate** at all classification thresholds.
+
+- **Perfect classifier**: Hugs the top-left corner (TPR=1, FPR=0)
+- **Random classifier**: Follows the diagonal line (AUC=0.5)
+- **Our model**: AUC = **0.9711** — excellent discrimination ability
+
+**AUC (Area Under the Curve)** summarizes the ROC curve as a single number:
+- AUC = 1.0: Perfect classifier
+- AUC = 0.9-1.0: Excellent
+- AUC = 0.8-0.9: Good
+- AUC = 0.5: Random (useless)
+
+Our AUC of **0.971** indicates the model has a 97.1% chance of correctly ranking a randomly chosen above-median student higher than a randomly chosen below-median student.
+
+---
+
+## Threshold Comparison Explanation
+
+| Threshold | Precision | Recall | F1 |
+|-----------|-----------|--------|----|
+| 0.30 | 0.9107 | 0.9623 | 0.9358 |
+| 0.40 | 0.9259 | 0.9434 | 0.9346 |
+| **0.50** | **0.9608** | **0.9245** | **0.9423** |
+| 0.60 | 0.9565 | 0.8302 | 0.8889 |
+| 0.70 | 0.9767 | 0.7925 | 0.8750 |
+
+**Best threshold**: **0.50** (highest F1 = 0.9423)
+
+**Key observations**:
+- **Lower thresholds** (0.30, 0.40): Higher recall (catch more positives) but lower precision (more false positives)
+- **Higher thresholds** (0.60, 0.70): Higher precision (fewer false positives) but lower recall (miss more true positives)
+- **0.50 threshold**: Provides the best balance between precision and recall
+
+This is the classic **precision-recall tradeoff**: lowering the threshold casts a wider net (more positives predicted), while raising it becomes more selective.
+
+---
+
+## Regularization Explanation (C Parameter)
+
+In Logistic Regression, `C` is the **inverse regularization strength**:
+
+$$\text{Loss} = \sum \text{log\_loss}(y_i, \hat{p}_i) + \frac{1}{C} \sum \beta_j^2$$
+
+| Parameter | C=1.0 | C=0.01 |
+|-----------|-------|--------|
+| Regularization | Moderate | **Strong** (100x more) |
+| Precision | 0.9608 | 0.9600 |
+| Recall | 0.9245 | 0.9057 |
+| AUC | **0.9711** | 0.9631 |
+
+**Meaning of C**:
+- **Large C** (e.g., 1.0): Less regularization, model fits training data more closely
+- **Small C** (e.g., 0.01): More regularization, coefficients are shrunk toward zero, model is simpler
+
+**Observation**: C=1.0 slightly outperforms C=0.01 across all metrics. The stronger regularization with C=0.01 was unnecessarily restrictive — the model's features are genuinely predictive, and shrinking their coefficients slightly hurt performance.
+
+---
+
+## Bootstrap & Confidence Interval Interpretation
+
+### Bootstrap Method
+1. Draw **500 random samples** with replacement from the test set
+2. For each sample, compute AUC for both models (C=1.0 and C=0.01)
+3. Calculate the AUC difference: `AUC(C=1.0) - AUC(C=0.01)`
+4. Build a **95% confidence interval** from the 2.5th and 97.5th percentiles
+
+### Results
+
+| Metric | Value |
+|--------|-------|
+| Mean AUC Difference | 0.0080 |
+| Lower CI (2.5%) | -0.0034 |
+| Upper CI (97.5%) | 0.0263 |
+| 95% CI | **[-0.0034, 0.0263]** |
+
+### Interpretation
+
+The 95% confidence interval **includes zero** (lower bound = -0.0034 < 0). This means:
+
+- We **cannot** conclude that C=1.0 is statistically significantly better than C=0.01
+- The observed AUC difference of 0.008 could plausibly be due to random sampling variation
+- Both models perform comparably on this dataset
+
+**Why this matters**: In practice, if two models perform similarly, we might prefer the more regularized model (C=0.01) because it is simpler and less prone to overfitting on new data. However, both are excellent classifiers (AUC > 0.96).
+
+---
+
+## Part 2 Conclusion
+
+1. **Regression Performance**: Both Linear Regression (R2=0.964) and Ridge Regression (R2=0.964) achieved excellent performance. The near-perfect R2 is because TotalMarks is the sum of the three component marks used as features.
+
+2. **Top Predictors**: ExamMarks (coeff=14.76), AssignmentMarks (7.74), and ProjectMarks (7.49) are the dominant predictors. Demographic features have negligible impact.
+
+3. **Classification Performance**: Logistic Regression achieved 94% accuracy, 96.1% precision, 92.5% recall, and AUC=0.971 — an excellent classifier.
+
+4. **Optimal Threshold**: The default threshold of 0.50 yielded the best F1 score (0.942), providing the ideal balance between precision and recall.
+
+5. **Regularization**: Moderate regularization (C=1.0) slightly outperformed strong regularization (C=0.01), but the difference was not statistically significant (bootstrap CI includes zero).
+
+6. **No Data Leakage**: All scaling was performed after the train/test split, with the scaler fitted exclusively on training data.
+
+---
 
 ## Requirements
 
@@ -342,6 +670,8 @@ This EDA project successfully demonstrated the complete data cleaning and explor
 - numpy >= 1.24.0
 - matplotlib >= 3.7.0
 - seaborn >= 0.12.0
+- scikit-learn >= 1.3.0
+- imbalanced-learn >= 0.11.0
 - jupyter >= 1.0.0
 
 Install with:
@@ -351,4 +681,4 @@ pip install -r requirements.txt
 
 ---
 
-*Project created for academic purposes - Part 1: Data Acquisition, Cleaning, and Exploratory Analysis*
+*Project created for academic purposes — Part 1: Data Acquisition, Cleaning, and Exploratory Analysis | Part 2: Machine Learning: Regression and Classification*
